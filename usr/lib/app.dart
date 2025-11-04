@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-import '../providers/auth_provider.dart';
-import 'patient_registration_screen.dart';
-import 'record_vitals_screen.dart';
-import 'diagnose_patient_screen.dart';
-import 'conduct_test_screen.dart';
-import 'upload_result_screen.dart';
-import 'manage_inventory_screen.dart';
-import 'review_invoices_screen.dart';
+import 'screens/auth_screen.dart';
+import 'screens/patient_registration_screen.dart';
+import 'screens/record_vitals_screen.dart';
+import 'screens/diagnose_patient_screen.dart';
+import 'screens/conduct_test_screen.dart';
+import 'screens/upload_result_screen.dart';
+import 'screens/manage_inventory_screen.dart';
+import 'screens/review_invoices_screen.dart';
 
 class HospitalManagementApp extends StatelessWidget {
   const HospitalManagementApp({super.key});
